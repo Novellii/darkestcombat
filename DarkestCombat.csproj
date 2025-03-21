@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Background.png" />
+    <None Remove="CrusaderIndle.png" />
+    <None Remove="Crusader_portrait.png" />
+    <None Remove="HeartOfDarkness.png" />
+    <None Remove="Spear.png" />
+    <None Remove="Sword.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background.png" />
+    <Resource Include="CrusaderIndle.png" />
+    <Resource Include="Crusader_portrait.png" />
+    <Resource Include="HeartOfDarkness.png" />
+    <Resource Include="Spear.png" />
+    <Resource Include="Sword.png" />
+  </ItemGroup>
+
+</Project>
